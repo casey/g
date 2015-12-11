@@ -1,0 +1,4 @@
+#!/bin/sh
+
+mkdir -p ~/bin
+ln -s $PWD/g ~/bin/g
