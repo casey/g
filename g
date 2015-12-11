@@ -8,6 +8,6 @@ while [ ! -e .gopath ]; do
   cd ..
 done
 
-export GOROOT=$PWD
+export GOPATH=$PWD
 
 exec go "$@"
